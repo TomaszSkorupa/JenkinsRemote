@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/New"
+    tools:ignore="ExtraText">
+
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/swiperefresh"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+    <ListView
+        android:id="@+id/list_view_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+
+
+
+    <!--<ProgressBar-->
+        android:id="@+id/progresssBarRefresh"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:visibility="gone"
+        />
+
+
+    <!--<Space-->
+    android:layout_width="match_parent"
+    android:layout_height="10dp" />
+
+    <!--<Button-->
+
+        android:id="@+id/refresh_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:text="Refresh Data"
+        android:textColor="@color/White"
+        android:onClick="refreshDataOnClick"
+        />
+
+
+
+</LinearLayout>

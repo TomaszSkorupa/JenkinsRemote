@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <item
+
+        android:id="@+id/trigger_build"
+        android:icon="@mipmap/trigger_icon2"
+        android:showAsAction="always"
+        android:title="Trigger build"
+        />
+
+
+    <item
+
+        android:icon="@mipmap/ic_launcher"
+        android:id="@+id/setting_button"
+        android:showAsAction="always"
+        android:title="Logout"
+        android:onClick="logoutClick"
+        />
+
+
+
+
+
+</menu>

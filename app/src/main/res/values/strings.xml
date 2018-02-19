@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">JenkinsRemote</string>
+
+    <string-array name="list_users">
+        <item>admin</item>
+        <item>testUser</item>
+
+    </string-array>
+
+
+</resources>
